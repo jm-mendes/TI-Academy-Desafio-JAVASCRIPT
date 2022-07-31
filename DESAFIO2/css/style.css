@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    color: white;
+    background-image: linear-gradient(to left, #2196F3, #3D5AFE);
+}
+
+.material-symbols-outlined {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    color: #2196F3;
+    font-size: 42px;
+    bottom: -21px;
+    padding: 10px;
+}
+
+#form {
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    border: solid 1px black;
+    padding: 40px;
+}
+
+input#buscarCep {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    background: #2196F3;
+    color: white;
+    border: #2196F3;
+    box-shadow: 0px 2px #0D47A1;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.label {
+    width: 300px;
+}
